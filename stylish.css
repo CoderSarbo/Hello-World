@@ -1,0 +1,71 @@
+{
+	margin: 0;
+	padding:0;
+}
+body{
+    background-color: rgb(37, 113, 211);
+    color: blanchedalmond;
+}
+a{
+	text-decoration: none;
+	color: thistle;
+}
+
+a:hover{
+	color:red;
+}
+
+a:active{
+	color:green;
+}
+
+a:visited{
+	
+}
+#main-header h1{
+    font-size: 200px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+#main-header h2{
+    text-align: center;
+    font-size: 100px;
+}
+#navbar{
+	background-color:#333;
+	color:rgb(231, 221, 221);
+}
+
+#navbar ul{
+	padding:10px;
+	list-style: circle;
+}
+
+#navbar li{
+    width: 100%;
+    color: white;
+    font-size: 30px;
+	display:inline;
+}
+#navbar a{
+    padding-right: 15px;
+}
+#navbar a:hover{
+	color:rgb(49, 31, 209);
+	text-decoration: underline;
+    font-size:50px;
+    padding-left: 15px;
+	padding-right:15px;
+}
+.intro{
+    font-size: 45px;
+    text-align: center;
+    font-weight: normal;
+}
+.copy{
+	text-align: center;
+	background-color: #000;
+	font-size: 25px;
+}
